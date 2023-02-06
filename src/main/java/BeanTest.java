@@ -4,12 +4,12 @@ import java.util.List;
 public class BeanTest {
     public static void main(String[] args) {
 
-        Album a1 = new Album(1, "Bad Bunny", "Trapeando", 2022, 3.4, "Trap");
-        Album a2 = new Album(2, "Taylor Swift", "21", 2022, 1.3, "Pop");
+        Album album1 = new Album(1, "Bad Bunny", "Trapeando", 2022, 3.4, "Trap");
+        Album album2 = new Album(2, "Taylor Swift", "21", 2022, 1.3, "Pop");
 
         List<Album> albumList = new ArrayList<>();
-        albumList.add(a1);
-        albumList.add(a2);
+        albumList.add(album1);
+        albumList.add(album2);
 
         for (Album album : albumList) {
             System.out.println(album.toString());
